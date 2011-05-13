@@ -11,7 +11,7 @@ import org.openqa.selenium.htmlunit._
   */
 class CommunityHomeLoggedOut extends FlatSpec {
  
-  val driver = new HTMLUnitDriver
+  val driver = new HtmlUnitDriver
   driver.get("http://community.babycenter.com")
 
   "Community Home Page (Logged Out)" should "have the proper title" in {
