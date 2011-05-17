@@ -6,7 +6,7 @@ import org.openqa.selenium.htmlunit._
 
 /**
   * Basic Test of BabyCenter Community Home - Logged out
-  * Verify basic elements exist on page
+  * Verify various elements exist on page
   * Uses Headless (HTMLUnit Driver)
   */
 class CommunityHomeLoggedOut extends FlatSpec {

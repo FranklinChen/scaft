@@ -5,8 +5,9 @@ import org.openqa.selenium._
 import org.openqa.selenium.htmlunit._
 
 /**
-  * Basic Test of BabyCenter Community Home - Logged out
-  * Verify basic elements exist on page
+  * Basic Test of Google Search
+  * Verify basic elements
+  * Verify query and results
   * Uses Headless (HTMLUnit Driver)
   */
 class GoogleSearch extends FlatSpec {
